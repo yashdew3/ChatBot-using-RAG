@@ -12,15 +12,18 @@ dist
 dist-ssr
 *.local
 
-# Environment files
+# Environment files - NEVER commit these!
 .env
 .env.local
 .env.production
+.env.example
+backend/.env
+backend/.env.local
+backend/.env.production
 
 # Backend Python files
 backend/__pycache__/
 backend/chroma_db/
-backend/.env
 *.pyc
 __pycache__/
 

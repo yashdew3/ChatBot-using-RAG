@@ -29,6 +29,8 @@ VITE_API_BASE_URL=https://chatbot-rag-backend.onrender.com
 - **Google Gemini API**: Get from [Google AI Studio](https://makersuite.google.com/app/apikey)
 - **Supabase**: Get from your [Supabase Dashboard](https://supabase.com/dashboard)
 
+⚠️ **SECURITY**: Never commit .env files to GitHub! Environment variables are now properly excluded.
+
 ## 🚀 **Complete Deployment Process**
 
 ### **Step 1: GitHub Repository Setup**
@@ -134,14 +136,14 @@ ChatBot-using-RAG/
 
 After successful deployment:
 
-- **Backend API**: `https://chatbot-rag-backend.onrender.com`
-- **Frontend App**: `https://chatbot-rag-frontend.onrender.com`
-- **API Documentation**: `https://chatbot-rag-backend.onrender.com/docs`
+- **Backend API**: `https://chatbot-rag-backend-1ima.onrender.com`
+- **Frontend App**: `https://chatbot-rag-frontend.onrender.com` (update with your actual URL)
+- **API Documentation**: `https://chatbot-rag-backend-1ima.onrender.com/docs`
 
 ## ✅ **Testing Deployment**
 
 ### 1. **Backend Health Check**
-Visit: `https://chatbot-rag-backend.onrender.com/health`
+Visit: `https://chatbot-rag-backend-1ima.onrender.com/health`
 
 ### 2. **Frontend Access**
 Visit: `https://chatbot-rag-frontend.onrender.com`

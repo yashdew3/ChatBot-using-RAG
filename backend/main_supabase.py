@@ -43,7 +43,7 @@ FRONTEND_URLS = [
     "http://localhost:3000",
     "http://localhost:5173",
     "http://localhost:8080", 
-    "https://chatbot-rag-frontend.onrender.com",  # Production frontend URL
+    "https://chatbot-rag-frontend.onrender.com",  # Update this with your actual frontend URL
     "https://*.onrender.com",
     "*"  # Allow all origins for demo - remove this in production for security
 ]
@@ -538,6 +538,13 @@ Answer:"""
     except Exception as e:
         print(f"❌ Chat error: {e}")
         return {"answer": "I'm sorry, I encountered an error while processing your question. Please try again."}
+
+# Add favicon endpoint to prevent 404 errors
+@app.get("/favicon.ico")
+async def favicon():
+    """Return a simple response for favicon requests to prevent 404 errors."""
+    from fastapi.responses import Response
+    return Response(content="", media_type="image/x-icon")
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 8000))

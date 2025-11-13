@@ -54,9 +54,9 @@
 - [ ] Verify backend redeploys automatically
 
 ### Testing
-- [ ] Backend health check: `https://chatbot-rag-backend.onrender.com/health`
-- [ ] Frontend access: `https://chatbot-rag-frontend.onrender.com`
-- [ ] API documentation: `https://chatbot-rag-backend.onrender.com/docs`
+- [ ] Backend health check: `https://chatbot-rag-backend-1ima.onrender.com/health`
+- [ ] Frontend access: `https://chatbot-rag-frontend.onrender.com` (update with actual URL)
+- [ ] API documentation: `https://chatbot-rag-backend-1ima.onrender.com/docs`
 - [ ] End-to-end test:
   - [ ] Access admin dashboard
   - [ ] Upload a PDF document
@@ -67,7 +67,7 @@
 
 ### Backend Service
 **Name**: `chatbot-rag-backend`
-**URL**: `https://chatbot-rag-backend.onrender.com`
+**URL**: `https://chatbot-rag-backend-1ima.onrender.com`
 
 ### Frontend Service  
 **Name**: `chatbot-rag-frontend`

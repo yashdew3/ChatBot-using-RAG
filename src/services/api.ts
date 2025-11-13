@@ -9,7 +9,7 @@ const getBaseURL = () => {
   
   // Check if we're in production based on hostname
   if (window.location.hostname.includes('onrender.com')) {
-    return 'https://chatbot-rag-backend.onrender.com';
+    return 'https://chatbot-rag-backend-1ima.onrender.com';
   }
   
   // Default to local development
