@@ -268,12 +268,22 @@ async def startup_event():
     print("💾 Documents stored persistently in Supabase")
 
 @app.get("/")
-def health_check():
+def root():
     return {
         "status": "ok", 
         "message": "AI Chatbot API with Supabase is running!",
         "database": "supabase",
         "persistent_storage": True
+    }
+
+@app.get("/health")
+def health_check():
+    """Health check endpoint"""
+    return {
+        "status": "healthy", 
+        "message": "AI Chatbot API is running!",
+        "database": "supabase",
+        "timestamp": datetime.now().isoformat()
     }
 
 @app.get("/test")
