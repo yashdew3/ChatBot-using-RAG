@@ -5,7 +5,6 @@
 The following files contain sensitive API keys and should **NEVER** be committed to Git:
 
 - `backend/.env`
-- `backend/.env.example` 
 - `.env`
 - `.env.local`
 - `.env.production`

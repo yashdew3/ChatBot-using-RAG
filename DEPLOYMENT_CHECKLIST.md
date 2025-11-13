@@ -43,7 +43,7 @@
   - [ ] Build Command: `npm ci && npm run build`
   - [ ] Publish Directory: `dist`
 - [ ] Add Environment Variables:
-  - [ ] `VITE_API_BASE_URL=https://chatbot-rag-backend.onrender.com`
+   - [ ] `VITE_API_BASE_URL=https://chatbot-rag-backend-1ima.onrender.com`
 - [ ] Deploy and verify: Frontend loads correctly
 
 ## 🔧 Post-Deployment Configuration

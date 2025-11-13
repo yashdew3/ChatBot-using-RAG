@@ -43,8 +43,8 @@ FRONTEND_URLS = [
     "http://localhost:3000",
     "http://localhost:5173",
     "http://localhost:8080", 
-    "https://chatbot-rag-frontend.onrender.com",  # Update this with your actual frontend URL
-    "https://*.onrender.com",
+    "https://chatbot-rag-frontend.onrender.com",  # Will be updated with actual frontend URL
+    "https://*.onrender.com",  # This covers all Render subdomains
     "*"  # Allow all origins for demo - remove this in production for security
 ]
 

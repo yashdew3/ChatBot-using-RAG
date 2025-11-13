@@ -42,6 +42,8 @@ echo    - Repository: yashdew3/ChatBot-using-RAG
 echo    - Build Command: npm ci ^&^& npm run build
 echo    - Publish Directory: dist
 echo.
-echo 4. Add Environment Variables (check README_DEPLOYMENT.md)
+echo 4. Add Environment Variables:
+echo    Backend: GOOGLE_API_KEY, SUPABASE_ANON_KEY, SUPABASE_URL, PORT=8000
+echo    Frontend: VITE_API_BASE_URL=https://chatbot-rag-backend-1ima.onrender.com
 echo.
 pause
