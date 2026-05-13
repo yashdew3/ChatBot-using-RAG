@@ -3,7 +3,7 @@
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Try_Now-blue?style=for-the-badge)](https://ai-chatbot-frontend-97tm.onrender.com/)
 [![Powered by](https://img.shields.io/badge/Powered_by-MongoDB+_Google_AI-green?style=for-the-badge)](https://ai-chatbot-frontend-97tm.onrender.com/)
 
-> **Experience our intelligent AI chatbot powered by advanced document understanding and Google Gemini AI**
+> **Experience our intelligent AI chatbot powered by advanced document understanding, intelligent Retrieval with the analysis of OepnAI and Google Gemini**
 
 ## ✨ **Live Demo**
 
@@ -46,19 +46,20 @@
 ## �️ **Technology Stack**
 
 ### Frontend
-- **React 18** with TypeScript
+- **React 19** with TypeScript
 - **Vite** for fast development and builds
 - **Tailwind CSS** + **Shadcn/ui** for beautiful UI
 - **React Router** for seamless navigation
 
 ### Backend
 - **FastAPI** (Python) for high-performance API
+- **OpenAI** 4o-mini for the analysis of retrieval
 - **Google Gemini AI** for intelligent responses
 - **MongoDB** for real-time database and storage
 - **PostgreSQL** for reliable data persistence
 
 ### Infrastructure
-- **Render.com** for deployment and hosting
+- **Digital Ocean** for deployment and hosting
 - **GitHub** for version control and CI/CD
 - **MongoDB Cloud** for database and file storage
 
@@ -184,18 +185,3 @@ This chatbot represents modern AI-powered customer support:
 <p align="center">
   <sub>Built with ❤️ using React, FastAPI, MongoDB</sub>
 </p>
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
